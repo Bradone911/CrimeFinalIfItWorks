@@ -23,21 +23,10 @@ public class CrimeLab {
         mCrimes = new ArrayList<>();
     }
 
-//    public void addCrime(Crime c) {
-//        mCrimes.add(c);
-//    }
+
 
     public List<Crime> getCrimes() {
         return mCrimes;
     }
 
-//    public Crime getCrime(UUID id) {
-//        for (Crime crime : mCrimes) {
-//            if (crime.getId().equals(id)) {
-//                return crime;
-//            }
-//        }
-//
-//        return null;
-//    }
 }
